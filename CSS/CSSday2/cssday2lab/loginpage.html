@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <!-- Design by foolishdeveloper.com -->
+    <title>Glassmorphism login Form Tutorial in html css</title>
+ 
+<style>
+body{
+    background-image: url(rain.jpg);
+background-repeat: no-repeat;
+}
+#div1{
+    display: flex;
+     
+  border: solid 1px rgba(0, 0, 0, 0);
+  height: 880px;
+    width: 1200px;
+   position: absolute;
+   z-index: -1;
+
+}
+#div2{
+    height: 450px;
+    width: 400px;
+    color: white;
+                   
+  border: 2px solid rgba(0, 0, 0, 0.041);
+  padding: 10px;
+  background-color: rgba(0, 0, 0, 0.411);
+  position:absolute;
+     top: 30%;
+     left: 35%;
+     border-radius: 8px;
+    
+    
+  
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+   margin-top: 100px;
+   
+   
+   
+
+}
+#password{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 228, 196, 0.151);
+    border-bottom: 2px solid white;
+    color: rgba(255, 255, 255, 0.938);
+}
+#username{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    background-color: rgba(255, 228, 196, 0.123);
+    border-bottom: 2px solid white;
+    color: white;
+}
+#but{
+    width: 300px;
+   height: 40px;
+   border-radius: 5px;
+   background-color: rgb(97, 143, 29);
+   color: white;
+   font-weight: bolder;
+   font-size: 15px;
+}
+h3{
+    font-size:30px;
+}
+#pic{
+    width: 200px;
+    height: 200px;
+   position: absolute;
+   position: relative;
+   z-index: 1;
+   top: 20%;
+   left: 45%;
+   
+}
+
+</style>
+</head>
+<body>
+    
+    <div id="div1">
+       <img src="contact.png" alt="" id="pic">
+        <div id="div2">
+            <form id="form">
+                <h3>Login Window</h3>
+        
+                
+                <input type="text" placeholder="Email or Phone" id="username">
+                <br>
+        
+                
+                <input type="password" placeholder="Password" id="password">
+                <br>
+        
+                <button id="but">Log In</button>
+                 
+            </form>
+        </div>
+    </div>
+    
+</body>
+</html>
