@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // length
+        let str = "     Abdur Rahman    "
+        let str1 = "BE";
+        let len = str.length; //12 length
+
+        //charAt to Traverse
+        let ch = str.charAt(0);
+        alert(ch);
+
+        //slice 
+        let slicestr = str.slice(0,5)
+        alert(slicestr);
+
+        //SubString
+        let subStringstr = str.substring(0,5);
+        alert(subStringstr);
+
+        //substr()
+
+        let subhstr = str.substr(-4);
+        alert(subhstr);
+
+        //to upper case
+
+        let text1 = str.toUpperCase();
+        alert(text1);
+
+        //to lower case
+
+        let text2 = str.toLowerCase();
+        alert(text2);
+
+        //concat
+        let be = str.concat(" ",str1);
+        alert(be);
+
+        //trim
+        let trim = str.trim();
+        alert(trim);
+
+        //trimStart()
+        let trimstart = str.trimStart();
+        alert(trimstart)
+ </script>
+</body>
+</html>
