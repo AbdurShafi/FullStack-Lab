@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <body onload="myarray()">
+        
+    </body>
+    <script>
+let myarray = function(){
+     let food = ["Briryani","Chapathi","Fried Rice","Korean Noodle"];
+     document.write("<br>"+food);
+     document.write("<br>"+food.length);
+     document.write("<br>"+food[0]);
+     food.push("parotta");
+     document.write("<br>");
+     food.pop();
+     document.write("<br>");
+     food.shift();
+     document.write("<br>");
+     food.unshift("Briryani");
+     for(let data of food){
+        document.write(data);
+     }
+}
+    </script>
+</body>
+</html>

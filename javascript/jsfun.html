@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        let sum = function() {
+  document.write("is Fine");
+};
+let sum1 = function(a,b){
+    let n = a+b;
+    document.write("Sum is "+n);
+}
+let sub = function(a,b){
+    let n = a-b;
+    document.write("Sub is "+n);
+}
+let mul = function(a,b){
+    let n = a*b;
+    document.write("Mul is "+n);
+}
+let div = (a,b) => {
+    let n = a/b;
+    document.write("Div is "+n);
+}
+    </script>
+</head>
+<body>
+    <button onclick=sum()>Know the reson</button>
+    <br>
+    <button onclick=sum1(10,50)>Add</button>
+    <br>
+    <button onclick=sub(90,50)>Sub</button>
+    <br>
+    <button onclick=mul(40,4)>Mul</button>
+    <br>
+    <button onclick=div(60,7)>div</button>
+</body>
+</html>
