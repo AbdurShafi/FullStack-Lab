@@ -1,0 +1,108 @@
+#navspan{ 
+    list-style-type: none; 
+    display: flex;
+    justify-content: space-around;
+    margin: 0; 
+    padding: 0; 
+
+   
+} 
+.linav{ 
+    display: inline-block; 
+     /* Adjust the value as needed */ 
+} 
+nav a{
+    text-decoration: none;
+    padding: 10px;
+    color: aliceblue;
+    
+}
+#navr{
+    background-color: #e40046;
+    color: white;
+}
+#logo{
+    width: 180px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+   margin-left: 120px;
+   margin-top: 10px;
+}
+form.example input[type=text] {
+    font-size: 17px;
+    height: 40px;
+    border: 1px solid rgb(239, 239, 239);
+    width: 500px;
+    background: #ffffff;
+    border-radius: 3px;
+    margin-left: 80px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    align-items: center;
+   
+  }
+  form.example button {
+    width: 120px;
+    height: 40px;
+    background: #000000;
+    color: white;
+    font-size: 17px;
+    border: 1px solid grey;
+    cursor: pointer;
+    border-radius: 3px;
+   
+  }
+  form.example button:hover {
+    background: #0b7dda;
+  } 
+  form.example::after {
+    content: "";
+    clear: both;
+    display: table;
+  } 
+  #nv2{
+    display: inline;
+    width: 100%;
+  }
+  #nav3{
+    background-color: rgb(218, 60, 60);
+  }
+  #navbot{
+    display: flex;
+  }
+  #cart{
+    
+    margin-top: 23px;
+    height: 40px;
+    margin-left: 60px;
+    border: none;
+    text-decoration-color: white;
+    background-color: #e40046;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-right: 20px;
+  }
+  #user{
+    width: 35px;
+    border-radius: 50%;
+    margin-bottom: 7px;
+    margin-left: 5px;
+    
+  }
+  #usertab{
+    margin-top: 12px;
+    height: 40px;
+    margin-left: 60px;
+    border: none;
+    text-decoration-color: white;
+    background-color: #e40046;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    padding-right: 20px;
+  }
+
+
+        
+   
